@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+  
+  <parameter name="un" value="abcd@gmail.com"></parameter>
+  <parameter name="pw" value="mu@124"></parameter>
+  
+    <classes>
+      <class name="testNG_pkg.Parameterization"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

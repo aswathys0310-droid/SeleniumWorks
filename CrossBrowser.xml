@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+  <test thread-count="5" name="Chrometest">
+  <parameter name="browser" value="chrome"></parameter>
+    <classes>
+      <class name="testNG_pkg.CrossBrowser"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="egdetest">
+  <parameter name="browser" value="edge"></parameter>
+    <classes>
+      <class name="testNG_pkg.CrossBrowser"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="FireFoxtest">
+  <parameter name="browser" value="FireFox"></parameter>
+    <classes>
+      <class name="testNG_pkg.CrossBrowser"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  +
+</suite> <!-- Suite -->
